@@ -1,9 +1,11 @@
-from typing import Optional
+#from typing import Optional
+
 
 from fastapi import FastAPI
 
-from pyperclip import *
-import webbrowser
+
+#from pyperclip import *
+#import webbrowser
 
 app = FastAPI()
 
