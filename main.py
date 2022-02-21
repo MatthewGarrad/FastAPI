@@ -10,6 +10,5 @@ def read_item(q, p):
         return float(int(q)/int(p))
     
     except ValueError:
-        webbrowser.open("file:///C:/Users/Matthew/Documents/GitHubPages/index.html", new=0)
         return "Values entered are not numbers."
         
